@@ -1,0 +1,46 @@
+* {
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove espaçamentos padrão */
+    box-sizing: border-box; /* Inclui bordas e paddings no cálculo do tamanho */
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa toda a altura da tela */
+    text-align: center;
+    background-color: #101010; /* Fundo escuro */
+    color: #EAEAEA; /* Texto claro */
+}
+
+main section {
+    max-width: 600px;
+    padding: 20px;
+    border: 2px solid #b71c1c; /* Borda vermelha */
+    border-radius: 8px;
+    background-color: #202020; /* Fundo do box */
+}
+
+main section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+main section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+main section .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #b71c1c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+main section .button:hover {
+    background-color: #f44336; /* Efeito ao passar o mouse */
+}
